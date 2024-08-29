@@ -1,0 +1,20 @@
+/*Desktop*/
+.grid {
+box-sizing: border-box;
+display: grid;
+grid-template-columns: minmax(2em,1fr) repeat(12,minmax(auto,10em)) minmax(2em,1fr);
+ }
+
+ 
+.grid_2-14
+{
+  grid-column: 2/14;
+}
+.grid_5-10
+{
+  grid-column: 5/10;
+}
+.grid_2-8
+{
+  grid-column:2/8
+}

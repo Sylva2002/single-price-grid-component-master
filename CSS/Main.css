@@ -1,0 +1,794 @@
+html,body
+{
+  margin: auto;
+}
+body
+{
+  font-size: calc(12px + 1vw); /* Fluid font size based on viewport width */ 
+  line-height: calc(1.2em + 0.5vh); /* Fluid line height based on viewport height  
+  calc(8px + 1.5625vw);*/
+}
+.Scroll
+{
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  margin: auto;
+}
+.Frame
+{
+  height: 100vh;
+}
+.Frame_background
+{
+ background-image: url('../Asset/image_01.jpg');
+ background-size: cover;
+ grid-column: 1/15;
+}
+.logo
+{
+  height: 7.80vh;
+  width: 7.7vw;
+  background: url('../Asset/logo_Bnex.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+  top: 3vw;
+  left: 2vw;
+  z-index: 2;
+}
+.Start
+{
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+.Start_content
+{
+  grid-row-start:1;
+}
+.txt_1
+{
+  font-family: Blanka;
+  font-size: 153px;
+  line-height: 1.3;
+}
+.txt_1 span
+{
+  font-family: Cal Sans;
+  padding-left: 25px;
+}
+.txt_2
+{
+  font-family: Work Sans;
+  font-size: 24px;
+}
+.menu
+{
+  font-family: Work Sans, sans-serif;
+  color: white;
+  height: fit-content;
+  z-index: 1;
+  position: fixed;
+  left: 83.7vw;
+  top: 33vh;
+}
+.menu ul
+{ 
+  margin: 0px;
+  padding: 0px;
+  width: 16vw;
+}
+.menu li
+{
+  list-style: none;
+}
+.menu .line
+{
+  border-bottom-style: solid;
+  border-width: 0.2vw;
+  color: white;
+  display: block;
+}
+
+.menu .btn
+{
+  text-decoration: none;
+  color: white;
+  display: flex;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  font-weight: 500;
+  font-size: 1.25vw;
+  line-height: 133%;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1.51vw;
+  border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-width: 0.2vw;
+
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 94%;
+  background-position-y: 52%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("../Asset/Ellipse.png");
+  background-size:  auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  
+}
+
+.menu .btn:hover 
+{
+  background:url('../Asset/Vector.png') ;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 95%;
+  background-position-y: 52%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("../Asset/Vector.png");
+  background-size:  auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  color: #FF9F1C;
+  border-top-color:#FF9F1C; 
+  border-bottom-color: white;
+}
+.menu .active
+{
+  display: block;
+   color: #FF9F1C;
+  border-top-color:#FF9F1C; 
+  background:url('../Asset/Vector.png') ;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 95%;
+  background-position-y: 52%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("../Asset/Vector.png");
+  background-size:  auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  color: #FF9F1C;
+  border-top-color:#FF9F1C; 
+  border-bottom-color: white;
+}
+.link
+{
+ 
+}
+.link a
+{
+  display: block;
+}
+.Frame-1
+{
+  height: 100vh;
+}
+.Frame-1_background
+{
+  background-image:url('../Asset/image_02.jpg');
+  background-size: cover;
+  grid-column: 1/15;
+}
+.space
+{
+  align-self:  center;
+  position: relative;
+  /*! margin-left: 2.3vw; */
+}
+.title
+{
+  
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 600;
+  font-size: 94px;
+  line-height: 118%;
+  color: white;
+  height: fit-content;
+}
+.txt_3
+{
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133%;
+  color: white;
+  height: fit-content;
+}
+.Frame-2
+{
+  height: 100vh;
+  
+}
+.Frame-2_background
+{
+  background-image:url('../Asset/image_03.jpg');
+  background-size: cover;
+}
+.title-1
+{
+font-family: "Cal Sans", sans-serif;
+font-weight: 600;
+font-size: 1.875vw;
+line-height: 114%;
+color: white;
+}
+.title-1 span
+{
+  display: block;
+  width: 3.3vw;
+  height: 0.5vw;
+  background-color: white;
+  margin-top: 1vw;
+}
+.title-2
+{
+  font-family: "Cal Sans", sans-serif;
+font-weight: 600;
+font-size: 5vw;
+line-height: 118%;
+color: white;
+}
+.text
+{
+  display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+gap: 32px;
+}
+.text .txt_4
+{
+  font-family: "Work Sans", sans-serif;
+font-weight: 400;
+font-size: 1.25vw;
+line-height: 133%;
+color: white;
+}
+.menu-1
+{
+  align-self: end;
+  position: relative;
+  bottom: 2.3vw;
+  margin-left: 2.3vw;
+  grid-row: 1/2;
+}
+.menu-1 ul
+{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 3vw;
+}
+.menu-1 li
+{
+  list-style: none;
+}
+.menu-1 a
+{
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  line-height: 96%;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+.menu-1 .arrow_L
+{
+  
+  width: 30px;
+  height: 60px;
+  background: url('../Asset/arrow_L.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.menu-1 .arrow_R
+{
+  width: 30px;
+  height: 60px;
+  background: url('../Asset/arrow_R.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.menu-1 .active
+{
+ color: #FF9F1C; 
+}
+.menu-1 a:hover
+{
+   color: #FF9F1C; 
+}
+.Frame-3_background
+{
+  background: url('../Asset/image_04.jpg');
+  background-size: cover;
+}
+.Frame-4_background
+{
+  background: url('../Asset/image_05.jpg');
+  background-size: cover;
+}
+.Frame-5_background
+{
+   background: url('../Asset/image_06.jpg');
+   background-size: cover;
+}
+
+.Frame-6_background
+{
+  background:url('../Asset/image_07.jpg');
+  background-size: cover;
+}
+.Frame-7_background
+{
+  background:url('../Asset/image_08.jpg');
+  background-size: cover;
+}
+.Frame-8_background
+{
+  background:url('../Asset/image_09.jpg');
+  background-size: cover;
+}
+.Frame-9_background
+{
+  background:url('../Asset/image_10.jpg');
+   background-size: cover;
+}
+.Frame-10_background
+{
+  background:url('../Asset/image_11.jpg');
+   background-size: cover;
+}
+.Frame-11_background
+{
+  background:url('../Asset/image_12.jpg');
+  background-size: cover;
+}
+.Frame-13 
+{
+   height: 100vh;
+   background:url('../Asset/image_13.jpg');
+   background-size: cover;
+   grid-column: 1/15;
+}
+
+.Frame-13 .space
+{
+}
+
+.Frame-13 .text
+
+{
+  
+}
+
+.Frame-13 .title-2
+{
+  
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.Frame-13 .txt_4
+{
+  display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 64px;
+  line-height:  normal;
+  font-family: none;
+}
+
+.Frame-13 .txt_4 img
+{
+  border-radius: 10px;
+  width: 453px;
+  height: 376px;
+}
+
+.Frame-13 .txt_4 .infos
+{
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 24px;
+}
+
+.Frame-13 .infos .elmt-1
+{
+  
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133%;
+  color: white;
+}
+
+.Frame-13 .infos .elmt-2
+{
+  
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 115%;
+  color: white;
+}
+
+.Frame-13 .infos .elmt-3
+{
+  
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133%;
+  color: white;
+}
+
+.Frame-13 .infos .elmt-4
+{
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133%;
+  color: white;
+}
+
+.Frame-14
+{
+  height: 100vh;
+  background:url('../Asset/image_14.jpg');
+  background-size: cover;
+  grid-column: 1/15;
+}
+
+.Page_1
+{
+  background-image:url('../Asset/image_03.jpg');
+}
+
+
+
+
+/*style for content slidershow_1*/
+
+.space-1
+{
+  display: flex;
+  flex-flow: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+.space-1 .position
+{
+  position: relative;
+  left: 3.4%;
+  width: 49.2vw;
+}
+
+/*slidershow_1 style */
+
+.CSSgal_1 {
+	position: relative;
+	overflow: hidden;
+	height: 100vh; /* Or set a fixed height */
+	grid-column: 1/15;
+}
+/* SLIDER */
+
+.CSSgal_1 .slider_1 {
+	height: 100%;
+	white-space:  nowrap;
+	font-size: 0;
+	transition: 0.8s;
+	width: 100vw;
+	position: absolute;
+}
+
+/* SLIDES */
+
+.CSSgal_1 .slider_1 > * {
+	font-size: 1rem;
+	display: inline-block;
+	white-space: normal;
+	vertical-align: top;
+	height: 100%;
+	width: 100%;
+}
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+
+.CSSgal_1 .prevNext_1 {
+	position: absolute;
+	z-index: 1;
+	top: 91vh;
+	width: 6.5vw;
+	height: 0;
+	left: 3.2vw;
+}
+
+.CSSgal_1 .prevNext_1 > div+div {
+	visibility: hidden; /* Hide all but first P/N container */
+}
+
+.CSSgal_1 .prevNext_1 a {
+	position: absolute;
+	width:       30px;
+	height:      60px;
+	line-height: 60px; /* If you want to place numbers */
+	text-align: center;
+	opacity: 0.7;
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+	-webkit-transform: translateY(-50%);
+					transform: translateY(-50%);
+	left: 0;
+	background: url('../Asset/arrow_L.png');
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.CSSgal_1 .prevNext_1 a:hover {
+	opacity: 1;
+}
+.CSSgal_1 .prevNext_1 a+a {
+	left: auto;
+	right: 0;
+	background: url('../Asset/arrow_R.png');
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/* NAVIGATION */
+
+.CSSgal_1 .bullets_1 {
+	position: absolute;
+	z-index: 2;
+	bottom: 8.1vh;
+	text-align: center;
+	left: 11vw;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: row;
+	gap: 3vw;
+}
+.CSSgal_1 .bullets_1 > a {
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+	font-family: "Cal Sans", sans-serif;
+	font-weight: 600;
+	font-size: 1vw;
+	line-height: 96%;
+	text-decoration: none;
+	display: block;
+}
+.CSSgal_1 .bullets_1 > a+a {
+	background: transparent; /* Dim all but first */
+}
+.CSSgal_1 .bullets_1 > a:hover {
+	color: #FF9F1C;
+}
+
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal_1 >s:target ~ .bullets_1 >* {      background: none;}
+/* ACTIVE */
+#s1:target ~ .bullets_1 >*:nth-child(1) {color: #FF9F1C;}
+#s2:target ~ .bullets_1 >*:nth-child(2) {color: #FF9F1C;}
+#s3:target ~ .bullets_1 >*:nth-child(3) {color: #FF9F1C;}
+/* More slides? Add here more rules */
+
+
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal_1 >s:target ~ .prevNext_1 >* {      visibility: hidden;}
+/* ACTIVE: */
+#s1:target ~ .prevNext_1 >*:nth-child(1) {visibility: visible;}
+#s2:target ~ .prevNext_1 >*:nth-child(2) {visibility: visible;}
+#s3:target ~ .prevNext_1 >*:nth-child(3) {visibility: visible;}
+
+/* More slides? Add here more rules */
+
+/* SLIDER ANIMATION POSITIONS */
+
+#s1:target ~ .slider_1 {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+#s2:target ~ .slider_1 {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+#s3:target ~ .slider_1 {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+
+/* More slides? Add here more rules */
+
+
+.CSSgal_1 a {
+	margin: 0 3px;
+	color: rgba(0,0,0,0.8);
+	text-decoration: none;
+}
+/*----------------------------*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*style for content slidershow*/
+
+.CSSgal {
+	position: relative;
+	overflow: hidden;
+	height: 100vh; /* Or set a fixed height */
+	grid-column: 1/15;
+}
+
+/* SLIDER */
+
+.CSSgal .slider {
+	height: 100%;
+	white-space:  nowrap;
+	font-size: 0;
+	transition: 0.8s;
+	width: 100vw;
+	position: absolute;
+}
+
+/* SLIDES */
+
+.CSSgal .slider > * {
+	font-size: 1rem;
+	display: inline-block;
+	white-space: normal;
+	vertical-align: top;
+	height: 100%;
+	width: 100%;
+}
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+
+.CSSgal .prevNext {
+	position: absolute;
+	z-index: 1;
+	top: 91vh;
+	width: 6.5vw;
+	height: 0;
+	left: 3.2vw;
+}
+
+.CSSgal .prevNext > div+div {
+	visibility: hidden; /* Hide all but first P/N container */
+}
+
+.CSSgal .prevNext a {
+	position: absolute;
+	width:       30px;
+	height:      60px;
+	line-height: 60px; /* If you want to place numbers */
+	text-align: center;
+	opacity: 0.7;
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+	-webkit-transform: translateY(-50%);
+					transform: translateY(-50%);
+	left: 0;
+	background: url('../Asset/arrow_L.png');
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.CSSgal .prevNext a:hover {
+	opacity: 1;
+}
+.CSSgal .prevNext a+a {
+	left: auto;
+	right: 0;
+	background: url('../Asset/arrow_R.png');
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/* NAVIGATION */
+
+.CSSgal .bullets {
+	position: absolute;
+	z-index: 2;
+	bottom: 8.1vh;
+	text-align: center;
+	left: 11vw;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: row;
+	gap: 3vw;
+}
+.CSSgal .bullets > a {
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+	font-family: "Cal Sans", sans-serif;
+	font-weight: 600;
+	font-size: 1vw;
+	line-height: 96%;
+	text-decoration: none;
+	display: block;
+}
+.CSSgal .bullets > a+a {
+	background: transparent; /* Dim all but first */
+}
+.CSSgal .bullets > a:hover {
+	color: #FF9F1C;
+}
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal >c:target ~ .bullets >* {  background: none;}
+/* ACTIVE */
+#c1:target ~ .bullets >*:nth-child(1) {color: #FF9F1C;}
+#c2:target ~ .bullets >*:nth-child(2) {color: #FF9F1C;}
+#c3:target ~ .bullets >*:nth-child(3) {color: #FF9F1C;}
+#c4:target ~ .bullets >*:nth-child(4) {color: #FF9F1C;}
+#c5:target ~ .bullets >*:nth-child(5) {color: #FF9F1C;}
+#c6:target ~ .bullets >*:nth-child(6) {color: #FF9F1C;}
+#c7:target ~ .bullets >*:nth-child(7) {color: #FF9F1C;}
+/* More slides? Add here more rules */
+
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal >c:target ~ .prevNext >* {      visibility: hidden;}
+/* ACTIVE: */
+#c1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+#c2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+#c3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+#c4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+#c5:target ~ .prevNext >*:nth-child(5) {visibility: visible;}
+#c6:target ~ .prevNext >*:nth-child(6) {visibility: visible;}
+#c7:target ~ .prevNext >*:nth-child(7) {visibility: visible;}
+/* More slides? Add here more rules */
+
+/* SLIDER ANIMATION POSITIONS */
+
+#c1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+#c2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+#c3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+#c4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+#c5:target ~ .slider {transform: translateX(-400%); -webkit-transform: translateX(-400%);}
+#c6:target ~ .slider {transform: translateX(-500%); -webkit-transform: translateX(-500%);}
+#c7:target ~ .slider {transform: translateX(-600%); -webkit-transform: translateX(-600%);}
+/* More slides? Add here more rules */
+
+
+/* YOU'RE THE DESIGNER! 
+   ____________________
+   All above was mainly to get it working :)
+   CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+
+
+.CSSgal a {
+	margin: 0 3px;
+	color: rgba(0,0,0,0.8);
+	text-decoration: none;
+}
+
+/*----------------------------*/
